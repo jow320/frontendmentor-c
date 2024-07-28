@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Young+Serif&display=swap");
+
+body {
+  background-color: #242323;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400, 600, 700;
+  font-style: normal;
+}
+
+.container {
+  background-color: #3a3939;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.container a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+p#green {
+  color: rgb(16, 185, 10);
+  font-weight: bold;
+}
+
+.container h2,
+.container p {
+  background-color: #3a3939;
+  color: aliceblue;
+}
+
+.button {
+  font-weight: bold;
+  padding: 20px;
+  background-color: #4e4d4d !important;
+  border-radius: 8px;
+  margin: 20px;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+img {
+  border-radius: 100px;
+}
