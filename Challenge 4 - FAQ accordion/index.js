@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", function () {
       const hiddenParagraph = document.getElementById(`hidden${index + 1}`);
       if (hiddenParagraph.classList.contains("hidden")) {
         hiddenParagraph.classList.remove("hidden");
-        toggle.src = "./faq-accordion-main/assets/images/icon-minus.svg"; // Atualize o caminho para a imagem de "-"
+        toggle.src = "./faq-accordion-main/assets/images/icon-minus.svg";
       } else {
         hiddenParagraph.classList.add("hidden");
-        toggle.src = "./faq-accordion-main/assets/images/icon-plus.svg"; // Atualize o caminho para a imagem de "+"
+        toggle.src = "./faq-accordion-main/assets/images/icon-plus.svg";
       }
     });
   });
